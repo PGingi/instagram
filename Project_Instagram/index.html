@@ -2,18 +2,17 @@
 <html>
     <head>
         <title>Project_intstagram</title>
-        <link href="style.css" rel="styleshet">
+        <link href="style.css"  rel="stylesheet">
     </head>
     <body>
-        <style>
-            
-        </style>
         <div>
             <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png">
             <input type="search" value="검색"/>
         </div>
         <div id="profile">
-            <img src="image/profile.jpg" width="50px">
+            <div id="profile_pic">
+                <img class="circle_pic" src="image/profile.jpg"/>
+            </div>
             <div>
                 <h2>half_bottle</h2>
                 <button>프로필 편집</button>
@@ -30,41 +29,52 @@
                 <a href="https://needleworm.github.io">neddleworm.github.io</a>
             </p>    
         </div>
-        <div>
+        <div id="highlight_area">
             <div class="highlight">
-                <div><img src="image/hl 1.jpg" height="35px"/></div>
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="image/hl 1.jpg"/>
+                </div>
                 <div>😎</div>
             </div>
             <div class="highlight">
-                <div><img src="image/hl 2.jpg" height="35px"/></div>
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="image/hl 2.jpg"/>
+                </div>
                 <div>😙</div>
             </div>
+            <div></div>
         </div>
-        <div>
-            <div>
+        <div id="stat_bar">
+            <div class="stat">
                 게시물<br/>
                 133
             </div>
-            <div>
+            <div class="stat">
                 팔로워<br/>
                 408
             </div>
-            <div>
+            <div class="stat">
                 팔로우<br/>
                 189
             </div>
         </div>
         <div>아이콘이 들어갈 자리</div>
         <div>
-            <img src="image/thumbnails/1.jpg" width="32%"/>
-            <img src="image/thumbnails/2.jpg" width="32%"/>
-            <img src="image/thumbnails/3.jpg" width="32%"/>
-            <img src="image/thumbnails/4.jpg" width="32%"/>
-            <img src="image/thumbnails/5.jpg" width="32%"/>
-            <img src="image/thumbnails/6.jpg" width="32%"/>
-            <img src="image/thumbnails/7.jpg" width="32%"/>
-            <img src="image/thumbnails/8.jpg" width="32%"/>
-            <img src="image/thumbnails/9.jpg" width="32%"/>
+            <div class="thumbnail_gird">
+                <img src="image/thumbnails/1.jpg" width="32%"/>
+                <img src="image/thumbnails/2.jpg" width="32%"/>
+                <img src="image/thumbnails/3.jpg" width="32%"/>
+            </div>
+            <div class="thumbnail_gird">
+                <img src="image/thumbnails/4.jpg" width="32%"/>
+                <img src="image/thumbnails/5.jpg" width="32%"/>
+                <img src="image/thumbnails/6.jpg" width="32%"/>
+            </div>
+            <div class="thumbnail_gird">
+                <img src="image/thumbnails/7.jpg" width="32%"/>
+                <img src="image/thumbnails/8.jpg" width="32%"/>
+                <img src="image/thumbnails/9.jpg" width="32%"/>
+            </div>
         </div>
     </body>
 </html>
